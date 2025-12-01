@@ -20,7 +20,7 @@
 
 ### Screenshot
 ![App Screenshot](assets/screenshot.png)
-*(Please place your screenshot in an `assets` folder and name it `screenshot.png`, or update this path)*
+
 
 ### Installation & Usage
 1. **Requirements**:
@@ -38,9 +38,9 @@
    *Note: The application will automatically request Administrator privileges to ensure it can access all network and process information.*
 
 3. **Building Executable**:
-   You can use PyInstaller to build a standalone `.exe`:
+
    ```bash
-   pyinstaller WindowsPortManager.spec
+   python build.py
    ```
 
 ---
@@ -63,7 +63,6 @@
 
 ### 软件截图
 ![软件截图](assets/screenshot.png)
-*(请在项目根目录下创建 `assets` 文件夹并放入名为 `screenshot.png` 的截图，或修改此处的路径)*
 
 ### 安装与使用
 1. **环境要求**:
@@ -81,7 +80,7 @@
    *注意：应用程序会自动请求管理员权限，以确保能够访问所有网络和进程信息。*
 
 3. **打包可执行文件**:
-   可以使用 PyInstaller 打包为独立的 `.exe` 文件:
+   打包为独立的 `.exe` 文件:
    ```bash
-   pyinstaller WindowsPortManager.spec
+   python build.py
    ```
